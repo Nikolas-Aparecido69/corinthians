@@ -1,0 +1,38 @@
+* {
+    color: rgb(255, 230, 86);
+}
+body{
+    background-color: rgb(255, 255, 255);
+    
+} 
+ 
+ .principal{
+    display: flex;
+    font-size: 50;
+    color: rgb(255, 255, 255);
+    text-align: center;  
+    height: 33%;
+    width:32%;
+    background-image: url("./escudocorinthians.jpg");
+    align-items: center;
+    flex-direction: column ;
+ }
+
+.itensMercado{
+    background-color:chartreuse;
+}
+
+.Maiusculo{
+    text-transform:uppercase;
+}
+
+section.fundo{
+    width: 100%;
+    height: 100%;
+    background-image: url("./corinthiansprofundo.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}

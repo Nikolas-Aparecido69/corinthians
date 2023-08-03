@@ -1,0 +1,25 @@
+<script type="text/javascript">
+ var nomeVisitante = prompt("Olá visitante, digite seu nome:");
+
+ var anoNascimento = parseInt(prompt(nomeVisitante + ",informe seu ano de nascimento."));
+
+var idade = 2023 - anoNascimento;
+
+document.write(nomeVisitante + " sua idade é: " + idade);
+
+if(idade>=18){
+alert ( 'Você é maior de idade')
+} else{
+    alert('Você é menor de idade');
+}
+
+function exibirmensagem(
+    pmensagem){
+        alert(pmensagem);
+    }
+
+exibirmensagem('Eu sou um programa')
+
+exibirmensagem('Não igual ao Google, porém um pequeno programa')
+
+</script>
